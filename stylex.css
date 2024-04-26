@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto';
+    background-color: #FFD046;
+}
+
+
+:root {
+    --cor-primaria: #2e2470;
+    --cor-secundaria: #FFD046;
+    --cor-destaque: #960200;
+}
+
+.titulo-principal {
+    color: var(--cor-primaria);
+    transition: color 0.3s ease;
+}
+
+.titulo-principal:hover {
+    color: var(--cor-secundaria);
+}
+
+.titulo {
+    font-weight: normal;
+    transition: font-weight 0.3s ease;
+    text-align: center;
+}
+
+.titulo:hover {
+    font-weight: bold;
+}
+
+.imagem {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.imagem:hover {
+    transform: scale(1.3);
+}
+
+.subtitulo1 {
+    transition: transform 0.3s ease;
+}
+
+.subtitulo1:hover {
+    transform: translateY(-5px);
+}
+
+.contatos {
+    list-style-type: none;
+}
+
+.botao {
+    background-color: var(--cor-destaque);
+    color: #fff;
+    padding: 5px 15x;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.botao a{
+    text-decoration: none;
+    color: white;
+}
+
+.botao:hover {
+    background-color: var(--cor-secundaria);
+}
+
+.subtitulo2 {
+    transition: transform 0.3s ease;
+}
+
+.subtitulo2:hover {
+    transform: translateY(-5px);
+}
+
+.sub {
+    transition: transform 0.3s ease;
+}
+
+.sub:hover{
+    transform: translateY(-5px);
+}
+
+.sub1 {
+    transition: transform 0.3s ease;
+}
+
+.sub1:hover{
+    transform: translateY(-5px);
+}
+
+.sub2 {
+    background-color: var(--cor-secundaria);
+    transition: background-color 0.3s ease;
+}
+
+.sub2:hover{
+    background-color: var(--cor-primaria);
+}
+
+.sub3 {
+    background-color: var(--cor-secundaria);
+    transition: background-color 0.3s ease;
+}
+
+.sub3:hover{
+    background-color: var(--cor-destaque);
+}
+
+.sub4 {
+    transition: transform 0.3s ease;
+}
+
+.sub4:hover{
+    transform: translateY(-5px);
+}
+
+.sub5 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.sub5:hover{
+    transform: translateY(-5px);
+}
+
+.endereco li a {
+    text-decoration: none;
+    color: black;
+}
+
+.tabela {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+
+.titulotabela {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.titulotabela:hover {
+    opacity: 0.9;
+}
+
+.pforte li{
+    font-weight: normal;
+    transition: font-weight 0.3s ease;
+}
+
+.pforte li:hover{
+    font-weight: bold;
+}
+
+.pfraco li{
+    font-weight: normal;
+    transition: font-weight 0.3s ease;
+}
+
+.pfraco li:hover{
+    font-weight: bold;
+}
